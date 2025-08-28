@@ -50,7 +50,19 @@ function App() {
 					<h1 className="text-[2rem] font-bold text-[white]">Naxus</h1>
 				</div>
 				<h1 className="flex justify-center text-center text-[4rem] font-bold text-[white]">Coming Soon</h1>
-				<div className='mt-[1rem] flex items-center p-[2rem] space-x-[2rem] bg-[rgba(20,20,20,.9)] backdrop-blur-[3rem] rounded-[1rem] shadow-[0_0_0_1px_inset_rgba(52,52,52,1)]'>
+				<div className='
+  flex flex-col             /* الوضع الافتراضي: عمودي للموبايل */
+  desktop:flex-row          /* من 1200px وطالع: أفقي للديسكتوب */
+  items-center
+  p-[2rem]
+  desktop:space-x-[2rem]    /* مسافات أفقية بين العناصر في الديسكتوب */
+  space-y-[2rem]            /* مسافات رأسية للموبايل */
+  desktop:space-y-0         /* إلغاء المسافات الرأسية في الديسكتوب */
+  bg-[rgba(20,20,20,.9)]
+  backdrop-blur-[3rem]
+  rounded-[1rem]
+  shadow-[0_0_0_1px_inset_rgba(52,52,52,1)]
+'>
 					<div className='space-y-[2rem] w-[256px]'>
 						<div className='flex items-center space-x-[1rem]'>
 							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
