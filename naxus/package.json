@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
@@ -19,11 +20,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build:css": "node node_modules/@tailwindcss/cli/dist/index.mjs -i ./src/index.css -o ./public/dist/output.css",
+    "build:css": "node init && node node_modules/@tailwindcss/cli/dist/index.mjs -i ./src/index.css -o ./public/dist/output.css",
     "watch:css": "node node_modules/@tailwindcss/cli/dist/index.mjs -i ./src/index.css -o ./public/dist/output.css --watch",
-    "start": "react-scripts start",
-    "dev": "concurrently \"npm run watch:css\" \"npm run start\"",
-    "build": "react-scripts build",
+    "start": "node init && react-scripts start",
+    "dev": "node init && concurrently \"npm run watch:css\" \"npm run start\"",
+    "build": "node init && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -50,7 +51,7 @@
     "autoprefixer": "^10.4.21",
     "concurrently": "^9.2.1",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.12"
+    "tailwindcss": "^3.4.17"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
