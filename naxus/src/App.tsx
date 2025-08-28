@@ -49,77 +49,82 @@ function App() {
 					</svg>
 					<h1 className="text-[2rem] font-bold text-[white]">Naxus</h1>
 				</div>
-				<h1 className="text-[4rem] font-bold text-[white]">Coming Soon</h1>
-				<div className='mt-[1rem] flex flex-col p-[2rem] bg-[rgba(20,20,20,.9)] backdrop-blur-[3rem] rounded-[1rem] shadow-[0_0_0_1px_inset_rgba(52,52,52,1)] space-y-[1rem]'>
-					<div className='flex items-center space-x-[1rem]'>
-						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
-							<path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"></path><path fill="#fff" d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"></path><path fill="#cfd8dc" d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"></path><path fill="#40c351" d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"></path><path fill="#fff" fill-rule="evenodd" d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z" clip-rule="evenodd"></path>
-						</svg>
-						<Link
-							to="https://www.linkedin.com/company/naxus"
-							className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
+				<h1 className="flex justify-center text-center text-[4rem] font-bold text-[white]">Coming Soon</h1>
+				<div className='mt-[1rem] flex items-center p-[2rem] space-x-[2rem] bg-[rgba(20,20,20,.9)] backdrop-blur-[3rem] rounded-[1rem] shadow-[0_0_0_1px_inset_rgba(52,52,52,1)]'>
+					<div className='space-y-[2rem] w-[256px]'>
+						<div className='flex items-center space-x-[1rem]'>
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+								<path className='fill-[white]' d="M25,2C12.318,2,2,12.318,2,25c0,3.96,1.023,7.854,2.963,11.29L2.037,46.73c-0.096,0.343-0.003,0.711,0.245,0.966 C2.473,47.893,2.733,48,3,48c0.08,0,0.161-0.01,0.24-0.029l10.896-2.699C17.463,47.058,21.21,48,25,48c12.682,0,23-10.318,23-23 S37.682,2,25,2z M36.57,33.116c-0.492,1.362-2.852,2.605-3.986,2.772c-1.018,0.149-2.306,0.213-3.72-0.231 c-0.857-0.27-1.957-0.628-3.366-1.229c-5.923-2.526-9.791-8.415-10.087-8.804C15.116,25.235,13,22.463,13,19.594 s1.525-4.28,2.067-4.864c0.542-0.584,1.181-0.73,1.575-0.73s0.787,0.005,1.132,0.021c0.363,0.018,0.85-0.137,1.329,1.001 c0.492,1.168,1.673,4.037,1.819,4.33c0.148,0.292,0.246,0.633,0.05,1.022c-0.196,0.389-0.294,0.632-0.59,0.973 s-0.62,0.76-0.886,1.022c-0.296,0.291-0.603,0.606-0.259,1.19c0.344,0.584,1.529,2.493,3.285,4.039 c2.255,1.986,4.158,2.602,4.748,2.894c0.59,0.292,0.935,0.243,1.279-0.146c0.344-0.39,1.476-1.703,1.869-2.286 s0.787-0.487,1.329-0.292c0.542,0.194,3.445,1.604,4.035,1.896c0.59,0.292,0.984,0.438,1.132,0.681 C37.062,30.587,37.062,31.755,36.57,33.116z"></path>
+							</svg>
+							<Link
+								to="https://www.linkedin.com/company/naxus"
+								className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-gradient-to-r from-[#3352FF] to-[#000003] shadow-[0_0_0_2px_inset_rgba(255,255,255,.15)] hover:scale-[1.05] transition duration-[.1s] hover:from-[#3352FF] hover:to-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
 
-						>
-							WhatsApp
-						</Link>
+							>
+								WhatsApp
+							</Link>
+						</div>
+						<div className='flex items-center space-x-[1rem]'>
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+								<path className='fill-[white]' d="M7,38c-2.075,0-6-1.132-6-5.416c0-3.997,3.503-5.95,5.858-6.288	c5.277-0.755,8.417-0.488,20.577,5.388C42.229,38.834,48,31,48,31s-1.684,4.039-6,5c-3.286,0.731-8.216,0.973-15.436-2.516	C14.91,27.853,11.985,27.58,7.142,28.276C5.99,28.441,3,29.537,3,32.584C3,35.961,6.837,36,7,36c0.553,0,1,0.447,1,1S7.553,38,7,38z"></path><path className='fill-[white]' d="M22.039,22.625c-0.644,0-1.287-0.155-1.871-0.464L6,14.661v9.762 c0.196-0.043,0.389-0.08,0.575-0.107c1.119-0.16,2.454-0.324,3.869-0.324c4.24,0,8.748,1.486,17.862,5.891 c3.858,1.865,7.384,2.811,10.479,2.811c1.239,0,2.301-0.156,3.215-0.39V13.118l-18.172,9.086 C23.266,22.485,22.652,22.625,22.039,22.625z"></path><path className='fill-[white]' d="M21.104,20.394c0.57,0.301,1.254,0.31,1.83,0.021l19.049-9.525 c-0.087-1.046-0.969-1.863-2.039-1.833l-32,0.889C6.862,9.976,6,10.862,6,11.945v0.453L21.104,20.394z"></path><path className='fill-[white]' d="M38.785,34.693c-2.964,0-6.714-0.769-11.349-3.01c-9.241-4.465-13.272-5.691-16.991-5.691 c-1.175,0-2.319,0.122-3.586,0.304C6.586,26.335,6.296,26.405,6,26.489v11.566c0,1.083,0.862,1.969,1.944,1.999l32,0.889 C41.07,40.974,42,40.07,42,38.944v-4.589C41.052,34.562,39.987,34.693,38.785,34.693z"></path><path className='fill-[white]' d="M38,26.673v1.772c1.543-0.004,2.871-0.193,4-0.444c4.316-0.961,5-5,5-5S45.058,26.985,38,26.673z"></path>
+							</svg>
+
+							<Link to={`mail:naxus.team@hotmail.com`} className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-gradient-to-r from-[#3352FF] to-[#000003] shadow-[0_0_0_2px_inset_rgba(255,255,255,.15)] hover:scale-[1.05] transition duration-[.1s] hover:from-[#3352FF] hover:to-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
+							>
+								Hotmail
+							</Link>
+						</div>
+						<div className='flex items-center space-x-[1rem]'>
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+								<path className='fill-[white]' d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+							</svg>
+							<Link
+								to="https://www.linkedin.com/company/naxus"
+								className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-gradient-to-r from-[#3352FF] to-[#000003] shadow-[0_0_0_2px_inset_rgba(255,255,255,.15)] hover:scale-[1.05] transition duration-[.1s] hover:from-[#3352FF] hover:to-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
+
+							>
+								Linkedin
+							</Link>
+						</div>
 					</div>
-					<div className='flex items-center space-x-[1rem]'>
-						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
-							<path fill="#f57c00" d="M7,38c-2.075,0-6-1.132-6-5.416c0-3.997,3.503-5.95,5.858-6.288	c5.277-0.755,8.417-0.488,20.577,5.388C42.229,38.834,48,31,48,31s-1.684,4.039-6,5c-3.286,0.731-8.216,0.973-15.436-2.516	C14.91,27.853,11.985,27.58,7.142,28.276C5.99,28.441,3,29.537,3,32.584C3,35.961,6.837,36,7,36c0.553,0,1,0.447,1,1S7.553,38,7,38z"></path><path fill="#f57c00" d="M22.039,22.625c-0.644,0-1.287-0.155-1.871-0.464L6,14.661v9.762 c0.196-0.043,0.389-0.08,0.575-0.107c1.119-0.16,2.454-0.324,3.869-0.324c4.24,0,8.748,1.486,17.862,5.891 c3.858,1.865,7.384,2.811,10.479,2.811c1.239,0,2.301-0.156,3.215-0.39V13.118l-18.172,9.086 C23.266,22.485,22.652,22.625,22.039,22.625z"></path><path fill="#f57c00" d="M21.104,20.394c0.57,0.301,1.254,0.31,1.83,0.021l19.049-9.525 c-0.087-1.046-0.969-1.863-2.039-1.833l-32,0.889C6.862,9.976,6,10.862,6,11.945v0.453L21.104,20.394z"></path><path fill="#f57c00" d="M38.785,34.693c-2.964,0-6.714-0.769-11.349-3.01c-9.241-4.465-13.272-5.691-16.991-5.691 c-1.175,0-2.319,0.122-3.586,0.304C6.586,26.335,6.296,26.405,6,26.489v11.566c0,1.083,0.862,1.969,1.944,1.999l32,0.889 C41.07,40.974,42,40.07,42,38.944v-4.589C41.052,34.562,39.987,34.693,38.785,34.693z"></path><path fill="#f57c00" d="M38,26.673v1.772c1.543-0.004,2.871-0.193,4-0.444c4.316-0.961,5-5,5-5S45.058,26.985,38,26.673z"></path>
-						</svg>
-						<Link to={`mail:naxus.team@hotmail.com`} className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
-						>
-							Hotmail
-						</Link>
-					</div>
-					<div className='flex items-center space-x-[1rem]'>
-						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
-							<path className='fill-[white]' d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-						</svg>
-						<Link
-							to="https://www.linkedin.com/company/naxus"
-							className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
+					<div className='space-y-[2rem] w-[256px]'>
+						<div className='flex items-center space-x-[1rem]'>
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+								<path className='fill-[white]' d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"></path><path fill="#000003" d="M20 31L20 17 32 24z"></path>
+							</svg>
+							<Link
+								to="https://www.youtube.com/@naxus-team"
+								className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-gradient-to-r from-[#3352FF] to-[#000003] shadow-[0_0_0_2px_inset_rgba(255,255,255,.15)] hover:scale-[1.05] transition duration-[.1s] hover:from-[#3352FF] hover:to-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
 
-						>
-							Linkedin
-						</Link>
-					</div>
-					<div className='flex items-center space-x-[1rem]'>
-						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
-							<path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"></path><path fill="#FFF" d="M20 31L20 17 32 24z"></path>
-						</svg>
-						<Link
-							to="https://www.youtube.com/@naxus-team"
-							className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
+							>
+								YouTube
+							</Link>
+						</div>
+						<div className='flex items-center space-x-[1rem]'>
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+								<path className='fill-[white]' d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+							</svg>
+							<Link
+								to="https://www.youtube.com/@naxus-team"
+								className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-gradient-to-r from-[#3352FF] to-[#000003] shadow-[0_0_0_2px_inset_rgba(255,255,255,.15)] hover:scale-[1.05] transition duration-[.1s] hover:from-[#3352FF] hover:to-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
 
-						>
-							YouTube
-						</Link>
-					</div>
-					<div className='flex items-center space-x-[1rem]'>
-						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
-							<path className='fill-[white]' d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
-						</svg>
-						<Link
-							to="https://www.youtube.com/@naxus-team"
-							className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
+							>
+								Facebook
+							</Link>
+						</div>
+						<div className='flex items-center space-x-[1rem]'>
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 64 64">
+								<path className='fill-[white]' d="M 21.580078 7 C 13.541078 7 7 13.544938 7 21.585938 L 7 42.417969 C 7 50.457969 13.544938 57 21.585938 57 L 42.417969 57 C 50.457969 57 57 50.455062 57 42.414062 L 57 21.580078 C 57 13.541078 50.455062 7 42.414062 7 L 21.580078 7 z M 47 15 C 48.104 15 49 15.896 49 17 C 49 18.104 48.104 19 47 19 C 45.896 19 45 18.104 45 17 C 45 15.896 45.896 15 47 15 z M 32 19 C 39.17 19 45 24.83 45 32 C 45 39.17 39.169 45 32 45 C 24.83 45 19 39.169 19 32 C 19 24.831 24.83 19 32 19 z M 32 23 C 27.029 23 23 27.029 23 32 C 23 36.971 27.029 41 32 41 C 36.971 41 41 36.971 41 32 C 41 27.029 36.971 23 32 23 z"></path>
+							</svg>
 
-						>
-							Facebook
-						</Link>
-					</div>
-					<div className='flex items-center space-x-[1rem]'>
-						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 64 64">
-							<path className='fill-[white]' d="M 31.820312 12 C 13.439312 12 12 13.439312 12 31.820312 L 12 32.179688 C 12 50.560688 13.439312 52 31.820312 52 L 32.179688 52 C 50.560688 52 52 50.560688 52 32.179688 L 52 32 C 52 13.452 50.548 12 32 12 L 31.820312 12 z M 28 16 L 36 16 C 47.129 16 48 16.871 48 28 L 48 36 C 48 47.129 47.129 48 36 48 L 28 48 C 16.871 48 16 47.129 16 36 L 16 28 C 16 16.871 16.871 16 28 16 z M 41.994141 20 C 40.889141 20.003 39.997 20.900859 40 22.005859 C 40.003 23.110859 40.900859 24.003 42.005859 24 C 43.110859 23.997 44.003 23.099141 44 21.994141 C 43.997 20.889141 43.099141 19.997 41.994141 20 z M 31.976562 22 C 26.454563 22.013 21.987 26.501437 22 32.023438 C 22.013 37.545437 26.501437 42.013 32.023438 42 C 37.545437 41.987 42.013 37.498562 42 31.976562 C 41.987 26.454563 37.498562 21.987 31.976562 22 z M 31.986328 26 C 35.299328 25.992 37.992 28.673328 38 31.986328 C 38.007 35.299328 35.326672 37.992 32.013672 38 C 28.700672 38.008 26.008 35.327672 26 32.013672 C 25.992 28.700672 28.673328 26.008 31.986328 26 z"></path>
-						</svg>
+							<Link
+								to="https://www.youtube.com/@naxus-team"
+								className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-gradient-to-r from-[#3352FF] to-[#000003] shadow-[0_0_0_2px_inset_rgba(255,255,255,.15)] hover:scale-[1.05] transition duration-[.1s] hover:from-[#3352FF] hover:to-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
 
-						<Link
-							to="https://www.youtube.com/@naxus-team"
-							className='flex items-center justify-center h-[38px] w-[100%] rounded-[12px] bg-[#3352FF] text-[14px] text-[white] font-[600] outline-none no-underline focus:outline-none'
-
-						>
-							Instagram
-						</Link>
+							>
+								Instagram
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>
